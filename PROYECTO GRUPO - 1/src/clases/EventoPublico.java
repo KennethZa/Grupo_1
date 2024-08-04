@@ -2,7 +2,7 @@
 package clases;
 
 public class EventoPublico {
-    // prueba de edicion
+    
     private String id;
     private String nombre;
     private String cedula;
@@ -17,7 +17,7 @@ public class EventoPublico {
     
     public EventoPublico(){    
     }
-//prueba
+
     public EventoPublico(String id, String nombre,String cedula, String telefono, String correo, String Direccion, String tipoEvento, String fechaEvento, String horaEvento, String paquete, String tipoPago) {
         this.id = id;
         this.nombre = nombre;
